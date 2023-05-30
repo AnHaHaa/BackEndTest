@@ -18,7 +18,7 @@ public class HelloController {
 	@RequestMapping("/helloajax")
 	@ResponseBody
 	public String helloajax() {
-		return "{\"model\":\"스프링부트 ajax를 시작합니다.\"}";
+		return "{\"model\":\"스프링부트 ajax를 시작합니다.(github)\"}";
 	}
 	
 	
