@@ -10,6 +10,7 @@ public class HelloController {
 	@RequestMapping("/helloboot")
 	public ModelAndView helloboot() {
 		System.out.println("sts3추가문장");
+		System.out.println("sts4추가문장22");
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("model","스프링부트를 시작합니다 - github :)");
 		mv.setViewName("hello");
